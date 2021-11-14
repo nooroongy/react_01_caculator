@@ -1,0 +1,57 @@
+*{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 200;
+}
+
+.cal-wrap{
+    width: 380px;
+    height: 430px;
+    display: grid;
+    grid-template-rows: 2fr 5fr;
+    margin-left: calc(50% - 190px);
+    border: 5px solid black;
+    box-sizing: border-box;
+}
+
+.cal-header{
+    background-color: black;
+}
+
+.cal-body{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: black;
+}
+
+.cal-btn{
+    margin: 3px;
+    color: #ffffffc7;
+    text-align: center;
+    font-size: 1.7em;
+    background: #ffffff38;
+}
+
+.cal-display{
+    background: #ffffff38;
+    color: #ffffffc7;
+    margin: 27px 16px 0px 16px;
+    height: 75px;
+    display: grid;
+    justify-content: end;
+    align-items: center;
+    padding-right: 10px;
+    grid-template-rows: 3fr 5fr;
+    width: 330px;
+    overflow: hidden;
+}
+
+.cal-number{
+    display: inline-block;
+    font-weight: 1000;
+    font-size: 1.5em;
+}
+
+.cal-number-prev{
+    font-weight: 500;
+    font-size: 0.8em;
+}
